@@ -41,17 +41,19 @@ h1 {
 .right {
   position: absolute;
   width: 125px;
-  bottom: 29%;
+  bottom: 28.5%;
   left: 50%;
   transition: all 300ms linear;
+  z-index: 1;
 }
 
 .left {
   position: absolute;
   width: 125px;
-  bottom: 29%;
+  bottom: 28.5%;
   right: 50%;
   transition: all 300ms linear;
+  z-index: 1;
 }
 
 .brain {
@@ -62,14 +64,14 @@ h1 {
   transition: all 300ms linear;
 }
 
+.robot:hover .brain {
+  bottom: 65%;
+}
+
 .robot:hover .right {
   left: 65%;
 }
 
 .robot:hover .left {
   right: 65%;
-}
-
-.robot:hover .brain {
-  bottom: 65%;
 }
