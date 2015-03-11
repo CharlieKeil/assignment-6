@@ -61,3 +61,15 @@ h1 {
   left: 43%;
   transition: all 300ms linear;
 }
+
+.robot:hover .right {
+  left: 65%;
+}
+
+.robot:hover .left {
+  right: 65%;
+}
+
+.robot:hover .brain {
+  bottom: 65%;
+}
