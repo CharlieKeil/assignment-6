@@ -24,3 +24,40 @@ h1 {
   padding-bottom: .5em;
   width:100%
 }
+
+.robot{
+  position: relative;
+  width: 320px;
+  margin: 0em auto;
+}
+
+.robot-body {
+  width: 320px;
+  top: 4em;
+  margin-top: 72px;
+  display: block;
+}
+
+.right {
+  position: absolute;
+  width: 125px;
+  bottom: 29%;
+  left: 50%;
+  transition: all 300ms linear;
+}
+
+.left {
+  position: absolute;
+  width: 125px;
+  bottom: 29%;
+  right: 50%;
+  transition: all 300ms linear;
+}
+
+.brain {
+  position: absolute;
+  width: 46px;
+  bottom: 58%;
+  left: 43%;
+  transition: all 300ms linear;
+}
